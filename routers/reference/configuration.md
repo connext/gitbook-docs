@@ -34,11 +34,11 @@ _These are example RPC URLs. Please get your own RPC URLs!_
     "1634886255": {
       "assets": [
         {
-          "address": "0x85fb8e2903ad92a2ab0c6a725806636666ee2ab4",
+          "address": "0x8c556cF37faa0eeDAC7aE665f1Bb0FbD4b2eae36",
           "name": "USDC"
         },
         {
-          "address": "0xfd5c16a50b717338cbcb44e34e10d735709e9cb9",
+          "address": "0x2983bf5c334743Aa6657AD70A55041d720d225dB",
           "name": "WETH"
         }
       ],
@@ -50,11 +50,11 @@ _These are example RPC URLs. Please get your own RPC URLs!_
     "1869640809": {
       "assets": [
         {
-          "address": "0x85FB8e2903Ad92A2ab0C6a725806636666ee2Ab4",
+          "address": "0x67E51f46e8e14D4E4cab9dF48c59ad8F512486DD",
           "name": "USDC"
         },
         {
-          "address": "0xfD5C16a50b717338Cbcb44e34e10d735709E9Cb9",
+          "address": "0xbAD5B3c68F855EaEcE68203312Fd88AD3D365e50",
           "name": "WETH"
         }
       ],
@@ -66,11 +66,11 @@ _These are example RPC URLs. Please get your own RPC URLs!_
     "1886350457": {
       "assets": [
         {
-          "address": "0x2ABe2d4F09ea3124DE56AD91ae0950A3B71eCD11",
+          "address": "0xF96C6d2537e1af1a9503852eB2A4AF264272a5B6",
           "name": "USDC"
         },
         {
-          "address": "0x2BD5B3cfB2b16F2B10e7BA41dc1cb93d61B36bB8",
+          "address": "0x4b8BaC8Dd1CAA52E32C07755c17eFadeD6A0bbD0",
           "name": "WETH"
         }
       ],
@@ -82,11 +82,11 @@ _These are example RPC URLs. Please get your own RPC URLs!_
     "6450786": {
       "assets": [
         {
-          "address": "0xe4f1ce2dc807084a874e957d5d2ac6502820bc15",
+          "address": "0x5e7D83dA751F4C9694b13aF351B30aC108f32C38",
           "name": "USDC"
         },
         {
-          "address": "0x6b205aeaae9de574d76d4e45af92998aefca205b",
+          "address": "0xA9CB51C666D2AF451d87442Be50747B31BB7d805",
           "name": "WETH"
         }
       ],
@@ -115,11 +115,11 @@ _These are example RPC URLs. Please get your own RPC URLs!_
     "6778479": {
       "assets": [
         {
-          "address": "0x67e79CC8d6b7C164Da28864875242b9210BFeb15",
+          "address": "0x44CF74238d840a5fEBB0eAa089D05b763B73faB8",
           "name": "USDC"
         },
         {
-          "address": "0x735c7e2035ff902EC8F7115355191Cabb05D86fd",
+          "address": "0x538E2dDbfDf476D24cCb1477A518A82C9EA81326",
           "name": "WETH"
         }
       ],
