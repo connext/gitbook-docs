@@ -77,7 +77,7 @@ const privateKey = "<PRIVATE_KEY>";
 let signer = new ethers.Wallet(privateKey);
 
 // Use the RPC url for the origin chain
-const provider = new ethers.providers.JsonRpcProvider("https://rpc.ankr.com/eth_goerli");
+const provider = new ethers.providers.JsonRpcProvider("https://public.stackup.sh/api/v1/node/ethereum-sepolia");
 signer = signer.connect(provider);
 const signerAddress = await signer.getAddress();
 
@@ -85,14 +85,16 @@ const sdkConfig: SdkConfig = {
   signerAddress: signerAddress,
   // Use `mainnet` when you're ready...
   network: "testnet",
+  environment:"production",
+
   // Add more chains here! Use mainnet domains if `network: mainnet`.
   // This information can be found at https://docs.connext.network/resources/supported-chains
   chains: {
-    1735353714: { // Goerli domain ID
-      providers: ["https://rpc.ankr.com/eth_goerli"],
+    1936027759: {
+      providers:["https://public.stackup.sh/api/v1/node/ethereum-sepolia"]
     },
-    1735356532: { // Optimism-Goerli domain ID
-      providers: ["https://goerli.optimism.io"],
+    1869640549: {
+      providers: ['https://sepolia.optimism.io']
     },
   },
 };
@@ -117,11 +119,13 @@ const {sdkBase} = await create(sdkConfig);
 const signerAddress = await signer.getAddress();
 
 // xcall parameters
-const originDomain = "1735353714";
-const destinationDomain = "1735356532";
-const originAsset = "0x7ea6eA49B0b0Ae9c5db7907d139D9Cd3439862a1";
-const amount = "1000000000000000000";
+const originDomain = "1936027759";
+const destinationDomain = "1869640549";
+const originAsset = "0xd26e3540A0A368845B234736A0700E0a5A821bBA";
+const amount = "100000000000000";
 const slippage = "10000";
+
+
 
 // Estimate the relayer fee
 const relayerFee = (
@@ -133,8 +137,8 @@ const relayerFee = (
 
 // Prepare the xcall params
 const xcallParams = {
-  origin: originDomain,           // send from Goerli
-  destination: destinationDomain, // to Mumbai
+  origin: originDomain,           // send from Sepolia
+  destination: destinationDomain, // to Op-Sepolia
   to: signerAddress,              // the address that should receive the funds on destination
   asset: originAsset,             // address of the token contract
   delegate: signerAddress,        // address allowed to execute transaction on destination side in addition to relayers
