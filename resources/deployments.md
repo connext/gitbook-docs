@@ -282,10 +282,10 @@ Note that the Test Token is a mintable ERC20. The open `mint` function has the s
 
 A bridge UI where users can transfer assets across domains. Here you can also mint `TEST` tokens with the faucet.
 
-[https://amarok-testnet.coinhippo.io](https://amarok-testnet.coinhippo.io)
+[https://testnet.bridge.connext.network](https://testnet.bridge.connext.network/)
 
 ### Connextscan
 
 This is the testnet scanner site where you can track the status of transfers by `transferId`.
 
-[https://testnet.amarok.connextscan.io](https://testnet.amarok.connextscan.io)
+[https://testnet.connextscan.io](https://testnet.connextscan.io/)
