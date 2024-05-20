@@ -216,6 +216,20 @@ A full list of deployed contracts can be found in the [deployments.json](https:/
 
 <table><thead><tr><th>Peripheral Contract</th><th width="254.33333333333331">Address</th><th>Description</th></tr></thead><tbody><tr><td><a href="https://explorer.mode.network/address/0x2c8DA9c3166085acebc70Ad9491cA2bfa10C8b9F">Unwrapper</a></td><td>0x2c8DA9c3166085acebc70Ad9491cA2bfa10C8b9F</td><td>WETH Unwrapper</td></tr></tbody></table>
 
+### XLayer
+
+> Domain ID: 2020368761
+
+> Chain ID: 196
+
+| Core Contract                                                                               | Address                                    |
+| ------------------------------------------------------------------------------------------- | ------------------------------------------ |
+| [Connext](https://explorer.mode.network/address/0x7380511493DD4c2f1dD75E9CCe5bD52C787D4B51) | 0x63A4fdD5184c6cCDF9c8e550c02bC815b687d7aC |
+
+<table><thead><tr><th>Asset Contract</th><th width="261.3333333333333">Address</th><th>Flavor</th></tr></thead><tbody><tr><td><a href="https://explorer.mode.network/address/0x609aEfb9FB2Ee8f2FDAd5dc48efb8fA4EE0e80fB">nextWETH</a></td><td>0x705c53246a116b4b10dac9ea429041ef2610a783</td><td>Local</td></tr><tr><td><a href="https://explorer.mode.network/address/0x4200000000000000000000000000000000000006">WETH</a></td><td>0x5a77f1443d16ee5761d310e38b62f77f726bc71c</td><td>Adopted</td></tr></tbody></table>
+
+<table><thead><tr><th>Peripheral Contract</th><th width="254.33333333333331">Address</th><th>Description</th></tr></thead><tbody><tr><td><a href="https://explorer.mode.network/address/0x2c8DA9c3166085acebc70Ad9491cA2bfa10C8b9F">Unwrapper</a></td><td>0xaE3a0b1C17504A193e6137bba2d063b1798049A5</td><td>WETH Unwrapper</td></tr></tbody></table>
+
 ## Testnet Contracts
 
 Note that the Test Token is a mintable ERC20. The open `mint` function has the signature `mint(address account, uint256 amount)` and can be freely called.
