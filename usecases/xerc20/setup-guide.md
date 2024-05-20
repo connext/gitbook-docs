@@ -99,28 +99,9 @@ function burn(address _user, uint256 _amount) external;
 
 #### LockboxAdapter
 
-You might have noticed there's a `LockBoxAdapter` contract in the diagram above when you have a Lockbox setup. This contract facilitates the unwrapping of `xERC20 -> ERC20` on the destination chain and is needed for UIs to do this step for users.
+You might have noticed there's a `LockBoxAdapter` contract in the diagram above when you have a Lockbox setup. This contract facilitates the unwrapping of `xERC20 -> ERC20` on the destination chain and is needed for UIs to do this step automatically for users.
 
-The Connext team has a `LockboxAdapter` deployed to all our supported chains (the implementation is available [here](https://github.com/connext/chain-abstraction-integration/blob/c35fbe757946cc76a826d93595cd99fd0db39c27/contracts/integration/LockboxAdapter.sol)). Use these if you plan to enable Connext as a bridge and want your token listed in our UI.&#x20;
-
-Mainnets:
-
-* Ethereum: 0x45bf3c737e57b059a5855280ca1adb8e9606ac68
-* Polygon: 0x6777c6713F13e499232B3a0CdA246e357a9Cf5EB
-* Optimism: 0x81dADc774d2ae44Eb30D2290d076Ae67F9800bd5
-* Arbitrum: 0x0B52cA1406eeA3Ce1fcc37dC0121845eF1de3Ae8
-* Gnosis: 0x3Cb55bFBB1f4973FCb9705Bab4aBb7E72BF85eAF
-* BNB: 0xB71D06f2e73918386B75c24dD26c95DD938f7912
-* Linea: 0x4895aa5d666c81a04ebcc7a9aa47f249b1c46aa6
-* Mode: 0x981A06E33b228299f33a45a892d7AA61d0b95a83
-* Base: 0x542AaB88B14055e47222791276967Db5f9B840f6
-* Metis: 0x5bB83e95f63217CDa6aE3D181BA580Ef377D2109
-
-Testnets:
-
-* Goerli: 0x8528d3B173a149CB0eae5e2d7335123bcF888c9f
-* Optimism-Goerli: 0x55fc076b9b0618a657f8986c83a97bd06e8a80f2
-* Mumbai: 0xec531b272fa2b82efe49ef6d830c2d848753642a
+The Connext team has a `LockboxAdapter` deployed to all our supported chains (the implementation is available [here](https://github.com/connext/chain-abstraction-integration/blob/c35fbe757946cc76a826d93595cd99fd0db39c27/contracts/integration/LockboxAdapter.sol)).&#x20;
 
 #### Whitelisting bridges
 
@@ -196,41 +177,7 @@ Once this is done, the Connext Labs team will review your PRs to sanity check de
 
 ## Connextscan and Bridge UI Support
 
-To get your token listed on our [Bridge UI](https://bridge.connext.network) and be able to track transfers in the [Connext explorer](https://connextscan.io/), you’ll need to submit two more PRs:
-
-1. Submit a PR to the [Connextscan config](https://github.com/CoinHippo-Labs/connextscan-ui/blob/main/config/mainnet/assets.json).
-   *   Create a new object in the list. Using `RADAR` as an example where it has a lockbox setup on Ethereum as its home chain:
-
-       ```json
-       {
-         "id": "radar",
-         "symbol": "RADAR",
-         "name": "DappRadar",
-         "image": "/logos/assets/radar.png",
-         "is_xERC20": true,
-         "contracts": [
-           {
-             "contract_address": "0x44709a920fCcF795fbC57BAA433cc3dd53C44DbE",
-             "chain_id": 1,
-             "decimals": 18,
-             "symbol": "RADAR",
-             "xERC20": "0x202426c15a18a0e0fE3294415E66421891E2EB7C",
-             "lockbox": "0xFf6792A39F44FB67B4796906a5Cb77C677328858",
-             "lockbox_adapter": "0x6ea3dc2e17a0466b36dd3258574e0bd2e4685452"
-           },
-           {
-             "contract_address": "0x489580eB70a50515296eF31E8179fF3e77E24965",
-             "chain_id": 56,
-             "decimals": 18,
-             "symbol": "RADAR"
-           }
-         ]
-       }
-       ```
-   * For each chain where your xERC20 is deployed, add an object to the `contracts` list. If your token has a lockbox setup, the `contract_address` should be the ERC20 instead of the xERC20. It should include the other relevant fields shown in the example above.
-2. Submit a similar PR to the [Bridge UI config](https://github.com/CoinHippo-Labs/connext-bridge/blob/main/config/mainnet/assets.json). You can use the exact same object here.
-
-And that’s it! Once these PRs are merged, you'll have your token appear on [https://connextscan.io](https://testnet.connextscan.io) and [https://bridge.connext.network](https://testnet.bridge.connext.network).
+The Connext team will take care of listing your token on our [Bridge UI](https://bridge.connext.network) and be able to track transfers in the [Connext explorer](https://connextscan.io/).
 
 ## Router Liquidity
 
