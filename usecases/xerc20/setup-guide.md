@@ -165,7 +165,7 @@ If you want Connext to be able to bridge your token ([here's our pitch in the ne
        ```
    * The `canonical` object should always have `11111` as the `domain`. Change the `address` and `decimals` to match your home chain xERC20. For example, `RADAR`'s home chain is Ethereum.
    * For each chain where your xERC20 is deployed (including the home chain), add an entry into the `representations` field keyed on the chain's `domainId`.&#x20;
-     * [You can look up each chain's domainId here](../../resources/supported-chains.md). We encourage commenting the chain name above each entry.
+     * [You can look up each chain's domainId here](broken-reference). We encourage commenting the chain name above each entry.
      * `local` and `adopted` should both be set to the xERC20 address. These exist as separate fields for non-xERC20 assets.
      * _Note: `domainId` is a Connext-specific identifier per chain that exists for forward compatibility with non-evm chains._
 

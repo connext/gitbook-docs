@@ -63,7 +63,6 @@
 
 * [Subgraphs](resources/subgraphs.md)
 * [Deployments](resources/deployments.md)
-* [Supported Chains](resources/supported-chains.md)
 
 ## 🖥️ Routers
 
