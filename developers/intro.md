@@ -43,4 +43,4 @@ Create [seamless cross-chain interactions](../usecases/chain-abstraction/chain-a
 
 Have questions or need support? Our core team and vibrant community members are highly active in our Discord server!
 
-[Chat with us!](https://discord.gg/connext)
+[Chat with us!](https://discord.gg/everclear)
