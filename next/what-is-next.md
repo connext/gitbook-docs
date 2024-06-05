@@ -15,7 +15,7 @@ layout:
 # What is NEXT
 
 {% hint style="warning" %}
-This document is currently subject to public review before being finalized. If you notice a revision that needs to be made or have feedback, please [request a revision](https://github.com/connext/gitbook-docs/issues/new) or start a conversation with us on Discord at [https://discord.gg/connext](https://discord.gg/connext).
+This document is currently subject to public review before being finalized. If you notice a revision that needs to be made or have feedback, please [request a revision](https://github.com/connext/gitbook-docs/issues/new) or start a conversation with us on Discord at [https://discord.com/invite/everclear](https://discord.com/invite/everclear)
 {% endhint %}
 
 NEXT is the governance and utility token of Connext. NEXT is deployed as an xERC20 (crosschain native) token on every chain Connext supports.
