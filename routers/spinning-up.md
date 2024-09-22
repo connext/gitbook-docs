@@ -47,7 +47,7 @@
 
 Refer to [https://github.com/connext/router-docker-compose](https://github.com/connext/router-docker-compose) for instructions on spinning up using Docker Compose!
 
-## #Next Steps
+### Next Steps
 
 * See the management guide for details on router administration.
 * See the liquidity guide for details on how to add liquidity to your router.
