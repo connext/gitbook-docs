@@ -26,11 +26,11 @@ Coming soon!
 
 [monorepo/packages/deployments/contracts/deployments at main · connext/monorepo](https://github.com/connext/monorepo/tree/main/packages/deployments/contracts/deployments)
 
-1. Find the `Connext.json` deployment for that chain and copy the address.
-2. Go to the website [louper.dev](https://louper.dev/) and enter the Connext contract address and choose the correct network.
-3. Scroll to the `RoutersFacet` section and select the option for `WRITE` and connect with the _Router Signer_ account.
-4. Select the method `initializeRouter` and fill in the details for `_owner` and `_recipient` and execute the transaction.
-5. Notify the Connext team to allowlist your router (this is still a permissioned role!).
+2. Find the `Connext.json` deployment for that chain and copy the address.
+3. Go to the website [louper.dev](https://louper.dev/) and enter the Connext contract address and choose the correct network.
+4. Scroll to the `RoutersFacet` section and select the option for `WRITE` and connect with the _Router Signer_ account.
+5. Select the method `initializeRouter` and fill in the details for `_owner` and `_recipient` and execute the transaction.
+6. Notify the Connext team to allowlist your router (this is still a permissioned role!).
 
 ℹ️ Note: This is the easiest way to call the contract function but since it is an onchain function it can be called from any mechanism to send the correct function with the appropriate arguments.
 
