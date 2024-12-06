@@ -17,9 +17,13 @@ The Security Council operates under the purview of the Connext DAO, which is res
 
 Elections for the Security Council are held annually, excluding an initial 6-month bootstrapping phase, during which the Connext Foundation will appoint the initial council.&#x20;
 
-Before each election cycle, the Connext DAO will open a one-month-long call for candidates, after which all eligible applicants will be put to a vote. The top 12 candidates will then be inducted into the council.
+Before each election cycle, the Connext DAO will open a call for candidates, after which all eligible candidates will participate in the elections. In the [proposal ](https://snapshot.org/#/dao.connext.eth/proposal/0x1de93ea3698896c4af022b9c7ae21abfe20b27a4c15aadef4407f448953b5f87)from September 2024, changes to the election and structure of the Security Council were outlined such that:
 
-Changes to these elections may be proposed by the DAO, but not in an ongoing election cycle.
+* New council is comprised of 8 regular members and a Lead, translating into a 7/9 multisig.
+* The term of each cohort is 12 months
+* All the Council members (9 out of 9) have a technical background that allows them to read code and detect possible vulnerabilities.
+* Monthly compensation  is included for each Council member, which remunerates them for their work and the risk of taking on the responsibility that comes with being part of the Council.
+* Maximum members of the same organization were reduced from 3 to 2
 
 #### Criteria for Membership
 
@@ -27,12 +31,12 @@ To be considered for a position on the council, candidates must meet the followi
 
 * Garner support from at least 0.4% of the voting supply prior to the election.
 * Maintain membership in the Connext DAO for at least 3 months prior to the election.
-* Have no more than 3 representatives from the same organization on the Council at a given time.
+* Have no more than 2 representatives from the same organization on the Council at a given time.
 * Publicly disclose any potential conflicts of interest prior to campaigning for membership.
 
 #### Emergency Removals
 
-Council membership can be revoked at any time outside of standard elections if 8 of the existing council members agree to removal. The Connext DAO can also remove council members through a two-thirds majority vote with a minimum participation of 6% of the token supply.
+In the case of repeated non-compliance of the expected duties, any Security Council may be revoked at any time outside of standard elections if a mayority of the existing council members agree on the removal. The Connext DAO can also remove council members through a two-thirds majority vote with a minimum participation of 6% of the token supply.
 
 ### Why have a Council?
 
