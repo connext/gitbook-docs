@@ -20,9 +20,7 @@ This document is currently subject to public review before being finalized. If y
 
 Elections for the Security Council are held annually, excluding an initial 6-month bootstrapping phase, during which the Connext Foundation will appoint the initial council.
 
-Before each election cycle, the Connext DAO will open a one-month-long call for candidates, followed by a 5-day long voting period. The top 12 candidates will then be inducted into the council for one term that will last for 12 months. Serving multiple terms will be possible, however, it will require candidates to submit a new application and be elected into the Security Council through a formal vote.
-
-NEXT token holders can vote for the Security Council or delegate their voting power so that the representative of their choice can vote on their behalf. Voting power depends on the number of tokes delegated to an address and is such that 1 token represents 1 vote.
+Before each election cycle, the Connext DAO will open a one-month-long call for candidates, followed by the voting period. The top 8 candidates will then be inducted into the council for one term that will last for 12 months. Serving multiple terms will be possible, however, it will require candidates to submit a new application and be elected into the Security Council through a formal vote.
 
 Changes to these elections may be proposed by the DAO, but not in an ongoing election cycle.
 
@@ -36,9 +34,10 @@ Note: Prior to the first election, the DAO can post an RFC to discuss whether th
 
 Any DAO member may declare their candidacy for the Security Council. To be considered for a position on the council, candidates must meet the following criteria:
 
+* Posess a technical background and the ability to read code and detect possible vulnerabilities.
 * Garner support from at least 0.4% of the voting supply prior to the election.
 * Maintain membership in the Connext DAO for at least 3 months prior to the election.
-* Have no more than 3 representatives from the same organization on the Council at a given time.
+* Have no more than 2 representatives from the same organization on the Council at a given time.
 * Publicly disclose any potential conflicts of interest prior to campaigning for membership.
 
 ***
@@ -85,17 +84,15 @@ Please note that you must adhere to the template. Any responses that deviate fro
 
 ## Current Security Council
 
-| Name    | Affiliation        |
-| ------- | ------------------ |
-| Layne   | Proxima Labs       |
-| Robert  | Connext Foundation |
-| Rahul   | Connext Labs       |
-| Goncalo | Creed              |
-| Greg    | Chainsafe          |
-| Dina    | P2P                |
-| Auryn   | Gnosis Guild       |
-| Veil    | Veil               |
-| Hilmar  | Gelato             |
-| Stefan  | Connext Community  |
-| Matias  | Wonderland         |
-| Anurag  | Polygon            |
+| Name            | Affiliation       |
+| --------------- | ----------------- |
+| Goncalo / Lead  | Creed             |
+| Layne           | Proxima Labs      |
+| James           | Proxima Labs      |
+| Rahul           | /                 |
+| Greg            | Chainsafe         |
+| Veil            | Veil              |
+| Facu            | /                 |
+| Stefan          | Connext Community |
+| Vending Machine | Vending Machine   |
+|                 |                   |
